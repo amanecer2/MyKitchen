@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amanecer.themykithcen" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.amanecer.themykitchen.ui.My"
+            android:label="@string/title_activity_my_kitchen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.amanecer.themykitchen.ui.FindIngridient"
+            android:label="@string/title_activity_find_ingridient">
+             </activity>
+        <activity
+            android:name="com.amanecer.themykitchen.ui.RecipesMaths"
+            android:label="@string/title_activity_recipe_math">
+
+            </activity>
+        <activity
+            android:name="com.amanecer.themykitchen.ui.Setting"
+            android:label="@string/action_settings"
+            ></activity>
+        <activity
+            android:name="com.amanecer.themykitchen.ui.TheRecipe"
+            android:label="@string/title_activity_the_recipe">
+            </activity>
+</application>
+
+</manifest>

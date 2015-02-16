@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyKithcen                           </string>
+    <string name="title_activity_my_kitchen">   MyKitchen       </string>
+    <string name="hello_world">  Hello world!                     </string>
+    <string name="action_settings">Settings                      </string>
+    <string name="title_activity_search_by_group">SearchByGroup     </string>
+    <string name="title_activity_all_ingridients_">All Ingridients </string>
+    <string name="title_activity_all_ingridients_activity">Sum of all ingridients </string>
+    <string name="title_activity_find_ingridient">FindIngridient </string>
+    <string name="title_activity_recipe_math">Recipes Math </string>
+    <string name="abc">order by a-z  </string>
+    <string name="title_activity_recipes_found">Recipes  </string>
+    <string name="rcipesFound">Recipes Found  </string>
+    <string name="delete">Delete   </string>
+    <string name="title_activity_the_recipe">TheRecipe  </string>
+    <string name="theRecipeName">Recipe Name  </string>
+    <string name="ingridients">Ingridients  </string>
+    <string name="flavors">Flavors   </string>
+    <string  name="timeInSeconds">Making Time  </string>
+    <string name="myRecipe">My Recipe yummly   </string>
+    <string name="searchByIngridients">Serach by ingridients  </string>
+    <string name="addNewRecipe">Add new recipe  </string>
+    <string name="myRecipes">My recipes  </string>
+    <string name="mustHaveIngridient">Obligatory </string>
+    <string name="enterIngridient">Enter Ingridient </string>
+    <string name="problem">Problem</string>
+    <string name="problemMessage">There is no recipe math for your ingridients
+                        please choose more ingridients or chech for not need all the ingridients. </string>
+    <string name="goBack">back </string>
+    <string name="searchingForRecipe">Searching for recipes please wait </string>
+    <string name="Searching">Searching </string>
+    <string name="noRecipesFound" >sorry but there is no recipes math for our search. plz try again  </string>
+    <string name="noRecipesFoundTitle" >No Maths  </string>
+    <string name="noConcctionTitle" >Opess   </string>
+    <string name="noConcction" >Its seems there is no conecction  plz cheek again for conections.  </string>
+    <string name="IngridientDwonload" >Dwonloading Ingridients</string>
+    <string name="goingToBeAlot" >It is going to be alot...</string>
+    <string name="timeToMake" >Time</string>
+    <string name="recipeChooseTitle" >Recipe Choose</string>
+    <string name="recipeChooseMessge" >Do you want this recipe?</string>
+    <string name="ok" >Ok</string>
+    <string name="noConnectionTitle">connection error</string>
+</resources>
+

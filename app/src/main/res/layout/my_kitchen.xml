@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amanecer.mykitchen.ui.MyKitchen"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:id="@+id/textView5"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/abc_action_bar_progress_bar_size"/>
+
+        <Button
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting"
+            android:gravity="right"
+            android:background="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+            android:layout_weight="0.69" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searchByIngridients"
+            android:id="@+id/homePage_searchByIngridients"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/ingridients"
+            android:backgroundTintMode="screen"
+            android:clickable="true"
+            android:textColor="#ff000000"
+            android:textAlignment="gravity"
+            android:textColorHighlight="@color/abc_search_url_text"
+            android:textStyle="bold|normal|italic" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addNewRecipe"
+            android:id="@+id/addNewRecipe"
+
+            android:layout_weight="1"
+            android:clickable="true" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/myRecipes"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elegantTextHeight="false"
+            android:textColor="#d61c3b1e" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">המטבח שלי</string>
+    <string name="title_activity_my_kitchen">המטבח שלי</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="title_activity_search_by_group">סידור לפי קבוצות</string>
+    <string name="title_activity_all_ingridients_">כל המצרכים</string>
+    <string name="title_activity_all_ingridients_activity">Sum of all ingridients</string>
+    <string name="title_activity_find_ingridient">מצא מצרכים</string>
+    <string name="title_activity_recipe_math">מתכונים מתאימים</string>
+    <string name="abc">order by a-z</string>
+    <string name="title_activity_recipes_found">מתכונים</string>
+    <string name="rcipesFound">מתכונית נמצאו</string>
+    <string name="delete">ללמחוק</string>
+    <string name="title_activity_the_recipe">המתכון</string>
+    <string name="theRecipeName">שם המתכון</string>
+    <string name="ingridients">מרכיבים</string>
+    <string name="flavors">טטעמים</string>
+    <string name="timeInSeconds">זזמן הכנה</string>
+    <string name="myRecipe">המתכונים שלי</string>
+    <string name="searchByIngridients">חיפוש לפי מרכיבים</string>
+    <string name="addNewRecipe">הוסף מתכון חדש</string>
+    <string name="myRecipes">המתכונים שלי</string>
+    <string name="mustHaveIngridient">חובה</string>
+
+    <string name="enterIngridient">הכנס מצרך</string>
+    <string name="problem">בעיה</string>
+    <string name="goBack">אאחור</string>
+    <string name="problemMessage">אין מספיק מצרכים על מנת להרכיב מתכון כראוי, אנא חזור והוסף מצרכים נוספים.</string>
+    <string name="searchingForRecipe">מחפש מתכונים</string>
+    <string name="Searching" >מחפש...</string>
+    <string name="noRecipesFound" >מצטערים, המתכונים לא נמצאו לפי החיפוש. אנא ערכו מחדש.</string>
+    <string name="noRecipesFoundTitle" >לא נמצאו מתכונים</string>
+    <string name="noConcctionTitle" >טעות</string>
+    <string name="noConcction" >בעיה, כנראה אין חיבור לרשת. אנא בדקו את חיבור לאינטרנט</string>
+    <string name="goingToBeAlot" ></string>
+    <string name="IngridientDwonload" >מוריד מצרכים, אנא המתן</string>
+
+    <string name="timeToMake" >זמן הכנה</string>
+    <string name="recipeChooseTitle" >מתכון נבחר</string>
+    <string name="recipeChooseMessge" >האם תרצו מתכון זה?</string>
+    <string name="ok" >מסכים</string>
+    <string name="noConnectionTitle"></string>אשגיאת התחברות</resources>
